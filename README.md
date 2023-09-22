@@ -1,6 +1,6 @@
 # Cypress Sample Project
 
-This project is a sample project built with Page Object Model pattern. It tests some basic features on https://www.saucedemo.com/ and https://demoqa.com/.
+This project is a sample project built with Page Object Model pattern. It tests some basic features on https://www.saucedemo.com/ and http://webdriveruniversity.com/.
 
 The project is created to give some example about my Cypress skills. :)
 
