@@ -21,10 +21,10 @@ export class LoginPage {
 
     headerText = 'Swag Labs'
     loginWithCredentials(username, password) {
-        if(username != '') {
+        if(username !== '') {
             cy.get('#user-name').clear().type(username)
         }
-        if(password != '') {
+        if(password !== '') {
             cy.get('#password').clear().type(password)
         }
         cy.get('#login-button').click()
