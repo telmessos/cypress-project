@@ -26,7 +26,7 @@ describe('Alert handling tests', () => {
         onAlertsPage.assertConfirmMessageBoxWithText(onAlertsPage.alertTexts.youPressedCancel)
     })
 
-    it.only('Confirm box should display on button click and ok button must show correct message', () => {
+    it('Confirm box should display on button click and ok button must show correct message', () => {
         // Clicking confirm box button
         onAlertsPage.clickConfirmBoxButton()
         // Verify alert displayed with text 'Press a button!'
@@ -37,6 +37,4 @@ describe('Alert handling tests', () => {
         //Verify a message with text 'You pressed OK!' displayed
         onAlertsPage.assertConfirmMessageBoxWithText(onAlertsPage.alertTexts.youPressedOk)
     })
-
-    
 })
